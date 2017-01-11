@@ -1,0 +1,20 @@
+apply plugin: 'application'
+apply plugin: 'java'
+mainClassName = 'fizzbuzz.FizzBuzzGame'
+repositories
+{
+    mavenCentral()
+}
+
+dependencies
+{
+    testCompile 'junit:junit:4.11'
+}
+
+test
+{
+    testLogging
+    {
+        exceptionFormat = 'full'
+    }
+}
