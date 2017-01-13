@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .gradle/
 bin/
 classes/
@@ -9,5 +10,8 @@ classes/
 build/
 *.ipr
 *.iws
+=======
 build/**
+gradle/**
 .gradle
+>>>>>>> c6f48b807b28fa0716eb5f9b9534655b64835e4c
